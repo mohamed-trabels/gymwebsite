@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(39, 96, 96);
+}
+.navbar {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    display: flex;
+    justify-content: space-between; /* Add this line to create space between the logo and nav links */
+    align-items: center; /* Add this line to vertically center the logo and nav links */
+    width: calc(100% - 20px); /* Add this line to ensure the navbar fits within the header */
+  }
+  
+  
+  
+  .nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left:80%;
+  }
+  
+  .nav-links ul li {
+    margin-left: 100px;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #ffeb54; /* Add this line to set the link color to white */
+    padding: 40px;
+  }
+  
+  .nav-links ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Add this line to set a transparent background on hover */
+  }
+#timer {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #reward {
+    font-size: 58px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #startButton{
+    background-color: brown;
+    color : white ;
+    border-radius:16px;
+    padding:3px,7px;
+    cursor:pointer;
+    width:90%;
+  }

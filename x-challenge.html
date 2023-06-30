@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>X-Challenge Workout</title>
+  <link rel="stylesheet" type="text/css" href="x-challenge.css">
+  
+   
+
+</head>
+<body>
+    <nav class="navbar" >
+        <div class="nav-links" >
+            <ul>
+            <li><a href="page1.html" id="hamma">Home</a></li>
+            <li><a href="x-challenge.html">X-Challenge</a></li>
+            <li><a href="x-shop.html">X-Shop</a></li>
+           </ul>
+        </div>
+    </nav>
+  <h1>X-Challenge Workout</h1>
+  
+  <div id="timer">00:00</div>
+  
+  <div id="exercises">
+    <h2>Exercises:</h2>
+    <ul>
+        if (minutes <= 2) {
+            reward = 40
+          } else if ( minutes >=2 && minutes <= 3) {
+            reward = 20
+          } else if (minutes > 3) {
+            reward = 10
+          }
+      <li>Squats: 30 repetitions</li>
+      <li>Push-ups: 20 repetitions</li>
+      <li>Gainage (Plank): 50 seconds</li>
+    </ul>
+  </div>
+  
+  <button id="startButton">Start Challenge</button>
+  <button id="stopButton">Stop Challenge</button>
+  
+  <div id="reward"></div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="x-challenge.js"></script>
+</body>
+</html>

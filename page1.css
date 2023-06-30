@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;   
+
+}
+
+body{
+
+  font-family:fantasy;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(grindtoday.png);
+  background-size: cover;
+  position: relative; /* Add this line to make the navbar position relative to the header */
+}
+
+.navbar {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+  display: flex;
+  justify-content: space-between; /* Add this line to create space between the logo and nav links */
+  align-items: center; /* Add this line to vertically center the logo and nav links */
+  width: calc(100% - 20px); /* Add this line to ensure the navbar fits within the header */
+}
+
+.navbar .logo {
+  color: #fff; /* Add this line to set the logo color to white */
+  font-size: 20px; /* Adjust the font size as needed */
+  animation: shine 2s infinite;
+}
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+}
+.nav-links ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links ul li {
+  margin-left: 100px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff; /* Add this line to set the link color to white */
+  padding: 40px;
+}
+
+.nav-links ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Add this line to set a transparent background on hover */
+}
+
+
+  
+  
